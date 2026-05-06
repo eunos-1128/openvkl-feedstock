@@ -41,7 +41,7 @@ tests:
 about:
   homepage: https://www.openvkl.org
   repository: https://github.com/RenderKit/openvkl
-  documentation: https://github.com/RenderKit/openvkl/blob/v{{ version }}/README.md
+  documentation: https://github.com/RenderKit/openvkl/blob/v${{ version }}/README.md
   license: Apache-2.0
   license_file: LICENSE.txt
   summary: Intel(R) Open Volume Kernel Library
