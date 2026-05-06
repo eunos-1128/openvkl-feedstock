@@ -11,7 +11,7 @@ Summary: Intel(R) Open Volume Kernel Library
 
 Development: https://github.com/RenderKit/openvkl
 
-Documentation: https://github.com/RenderKit/openvkl/blob/v2.0.2/README.md
+Documentation: https://github.com/RenderKit/openvkl/blob/v2.0.1/README.md
 
 Intel® Open Volume Kernel Library (Intel® Open VKL) is a collection of high performance volume computation kernels.
 
