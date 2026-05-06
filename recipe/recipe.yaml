@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "2.0.2"
+  version: "2.0.1"
 
 package:
   name: openvkl
@@ -9,10 +9,10 @@ package:
 
 source:
   url: https://github.com/RenderKit/openvkl/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: c5c6dd9984ee527e08d726770034a9bb7f52e06e65ec0a78368a5d930a53d122
+  sha256: 0c7faa9582a93e93767afdb15a6c9c9ba154af7ee83a6b553705797be5f8af62
 
 build:
-  number: 1
+  number: 0
 
 requirements:
   build:
@@ -25,7 +25,7 @@ requirements:
     - embree
     - libboost-devel
     - openvdb
-    - rkcommon
+    - rkcommon ==1.14.0
     - tbb-devel
     - zlib
   run_exports:
