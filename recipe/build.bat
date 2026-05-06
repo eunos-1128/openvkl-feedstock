@@ -3,6 +3,7 @@ setlocal enabledelayedexpansion
 
 cmake -S . -B build -G Ninja ^
     %CMAKE_ARGS% ^
+    -DCMAKE_POLICY_VERSION_MINIMUM=3.5 ^
     -DBUILD_SHARED_LIBS=ON ^
     -DBUILD_EXAMPLES=OFF ^
     -DBUILD_TESTING=ON ^
